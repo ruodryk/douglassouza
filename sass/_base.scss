@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@100;200;300;400;700&display=swap");
+
+/* font-family: 'Bree Serif', serif;
+font-family: 'Open Sans', sans-serif; */
+
+$color-blue-md: #8997a6;
+$color-blue-dark: #4f6274;
+$color-darker: #274a5e;
+$color-grey: #dedede;
+$color-green: #d2de02;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 10px/16 = 62.5 % - 1rem = 10px
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 96rem;
+  margin: 4rem auto;
+}
+
+.horizon {
+  width: 100%;
+  background-color: $color-grey;
+}

@@ -1,0 +1,70 @@
+.projetos {
+  padding: 12rem 0;
+  text-align: center;
+
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(25vw, 1fr));
+    gap: 6rem;
+  }
+
+  &__icon {
+    width: 8rem;
+    height: 8rem;
+    fill: $color-grey;
+    margin-right: 2rem;
+  }
+
+  &__box > *:link,
+  &__box > *:visited {
+    padding: 2rem;
+    height: 50vh;
+    background-size: cover;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: 5rem;
+    font-family: "Bree Serif", serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: $color-grey;
+    transition: all 0.3s ease-in;
+  }
+
+  &__box > *:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 2rem 4rem rgba(black, 0.5);
+  }
+
+  &__resid {
+    background-image: linear-gradient(
+        rgba($color-darker, 0),
+        rgba($color-darker, 1)
+      ),
+      url("layout/res.jpg");
+  }
+
+  &__comerciais {
+    background-image: linear-gradient(
+        rgba($color-darker, 0),
+        rgba($color-darker, 1)
+      ),
+      url("layout/com.jpg");
+  }
+
+  &__paisa {
+    background-image: linear-gradient(
+        rgba($color-darker, 0),
+        rgba($color-darker, 1)
+      ),
+      url("layout/paisa.jpg");
+  }
+
+  &__maq {
+    background-image: linear-gradient(
+        rgba($color-darker, 0),
+        rgba($color-darker, 1)
+      ),
+      url("layout/maq.jpg");
+  }
+}
